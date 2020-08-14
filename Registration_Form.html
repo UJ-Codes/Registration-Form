@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Registration Form</title>
+    </head>
+    <body>
+            <form>
+            <p><strong>My Registration Form</strong></p>
+            <label for="First_Name">First Name:</label>
+            <input type="text" id="First_Name" name="First_Name">
+            <br><br>
+            <label for="last_name">Last Name:</label>
+            <input type="text" id="last_name" name="last_name">
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email">
+            <br><br>       
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password">
+            <br><br>
+            <label for="pw_confirm">PW Confirm </label>
+            <input type="password" id="pw_confirm" name="pw_confirm">
+            <br><br>
+        <!--<h3> Get input date in 
+            mm-dd-yyyy format
+        </h3> -->
+            <label for="birthdate">Birthday</label>
+            <input type="date" id="birthdate" name="birthdate">
+            <!-- placeholder="mm-dd-yyyy" value=""
+            min="1910-01-01" max="2020-08-06"> -->
+            <br><br>
+<!--
+    <select name="gender">
+        <option value="Male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option> 
+        <br><br>-->
+            <p></p>
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="decline">Other</label>
+            <input type="radio" id="decline" name="gender" value="decline">
+            <br><br>
+<!--- <p>A short description about yourself:</p>
+        <textarea name="description"></textarea> -->
+            <label for="desc">A Short Description About Yourself</label>
+            <br><br>
+            <textarea id="desc" cols="30" rows="8"></textarea>
+            <br><br>
+        <label for="lang">Favorite Language:</label>
+        <select id="lang">
+            <option value="Favorite Language">JavaScript</option>
+            <option value="Favorite Language">Python</option>
+            <option value="Favorite Language">SQL</option>
+        </select>
+        <br><br>
+        <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
